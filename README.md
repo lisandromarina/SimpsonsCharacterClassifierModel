@@ -57,3 +57,11 @@ Run the predict (or notebook cell):
 ```python
 load_trained_model_and_predict(image_path)
 ```
+
+## Pre-trained Model
+
+The included `best_model.keras` file is a pre-trained model provided for convenience.
+
+- Test accuracy: **0.9333** (approximately 93.33%)
+
+While the model can definitely be improved with more training and tuning, this result is good enough as a first try.
