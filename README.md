@@ -16,7 +16,13 @@ Download the dataset from Kaggle:
 
 [The Simpsons Characters Dataset](https://www.kaggle.com/datasets/alexattia/the-simpsons-characters-dataset/data)
 
-Place the extracted dataset as follows:
+Before placing the data, **create the `Dataset` folder** in your project directory if it doesn't exist:
+
+```bash
+mkdir Dataset
+```
+
+Then, place the extracted dataset as follows:
 
 - Training images in `Dataset/train/` (one subfolder per character)
 - Test images in `Dataset/test/test/`
