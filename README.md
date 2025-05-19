@@ -50,13 +50,25 @@ Run the training script (or notebook cell):
 train_and_evaluate()
 ```
 
-### Predict
+### Predict from Notebook
 
 Run the predict (or notebook cell):
 
 ```python
 load_trained_model_and_predict(image_path)
 ```
+
+### Predict from Command Line
+
+To make a prediction directly from the command line using the `predict_image.py` script, use:
+
+Example:
+
+```python
+python predict_image.py Dataset/test/test/chief_wiggum/chief_wiggum_9.jpg
+```
+
+Make sure the best_model.keras file is in the root directory.
 
 ## Pre-trained Model
 
